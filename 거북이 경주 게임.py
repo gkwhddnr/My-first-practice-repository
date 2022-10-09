@@ -25,9 +25,16 @@ t2.pendown()
 t1.speed(1)
 t2.speed(1)
 
+
+def Result():
+    print("파란 거북이가 분홍 원보다 더 빨리 뛸 것이다.")
+
+Result()
+
 for (i) in range(100):
     d1 = random.randint(1, 60)
     t1.fd(d1)
     d2 = random.randint(1, 60)
     t2.fd(d2)
+
 
