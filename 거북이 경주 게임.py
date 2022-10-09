@@ -37,4 +37,4 @@ for (i) in range(100):
     d2 = random.randint(1, 60)
     t2.fd(d2)
 
-
+# 결과는 분홍 원이 파란 거북이보다 더 빨리 뛰었다.
